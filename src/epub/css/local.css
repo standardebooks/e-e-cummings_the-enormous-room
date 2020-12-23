@@ -1,6 +1,101 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
+
+blockquote[xml|lang]{
+	font-style: italic;
+}
+
+blockquote[xml|lang] i{
+	font-style: normal;
+}
 
 abbr.acronym{
 	font-variant: all-small-caps;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:letter"] header{
+	margin-bottom: 1em;
+	text-align: left;
+}
+
+[epub|type~="z3998:letter"] [epub|type~="se:letter.dateline"]{
+	text-align: right;
+}
+
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:song"] p,
+[epub|type~="z3998:verse"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:song"] p + p,
+[epub|type~="z3998:verse"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:song"] p > span,
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:song"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
+}
+
+/* chapter specific styling */
+#introduction ol ol{
+	list-style-type: lower-roman;
+}
+
+#chapter-4 blockquote:nth-of-type(2){
+	text-align: center;
+}
+
+#chapter-5 [epub|type~="z3998:song"] span:nth-of-type(2),
+#chapter-5 [epub|type~="z3998:song"] span:nth-of-type(4){
+	margin-left: 12em;
+}
+
+#chapter-5 [epub|type~="z3998:song"] span:nth-of-type(9){
+	margin-left: 9em;
+}
+
+#chapter-5 [epub|type~="z3998:song"] span:nth-of-type(10){
+	margin-left: 11em;
+}
+
+#chapter-5 [epub|type~="z3998:song"] span:nth-of-type(11){
+	margin-left: 13em;
+}
+
+#chapter-5 [epub|type~="z3998:song"] span:nth-of-type(12){
+	margin-left: 15em;
+}
+
+#chapter-5 [epub|type~="z3998:song"] span:nth-of-type(13){
+	margin-left: 17em;
+}
+
+#chapter-5 blockquote:nth-of-type(2),
+#chapter-10 blockquote,
+#chapter-12 blockquote:nth-of-type(2){
+	text-align: center;
 }
