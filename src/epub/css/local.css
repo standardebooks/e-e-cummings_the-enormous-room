@@ -69,6 +69,11 @@ p span.i1{
 	margin-left: 12em;
 }
 
+#chapter-5 [epub|type~="z3998:song"] span:nth-of-type(7),
+#chapter-5 [epub|type~="z3998:song"] span:nth-of-type(8){
+	margin-left: 2em;
+}
+
 #chapter-5 [epub|type~="z3998:song"] span:nth-of-type(9){
 	margin-left: 9em;
 }
