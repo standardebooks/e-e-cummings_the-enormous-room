@@ -76,10 +76,11 @@
 		<dc:creator id="introduction">Edward Cummings</dc:creator>
 		<meta property="file-as" refines="#introduction">Cummings, Edward</meta>
 		<meta property="role" refines="#introduction" scheme="marc:relators">aui</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
+		<dc:contributor id="artist">Vincent van Gogh</dc:contributor>
+		<meta property="file-as" refines="#artist">van Gogh, Vincent</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Vincent Willem van Gogh</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Vincent_van_Gogh</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n79022935</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Eric Eldred</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Eldred, Eric</meta>
