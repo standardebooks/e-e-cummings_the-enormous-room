@@ -6,6 +6,12 @@
 			<reason>Typically “I said” would belong to the preceding quote, but here it belongs to the following.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-2.xhtml">
+		<ignore>
+			<code>t-032</code>
+			<reason>The abbreviations here are set with hyphens, not dots, so this rule doesn’t apply.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-4.xhtml">
 		<ignore>
 			<code>t-005</code>
