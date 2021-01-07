@@ -55,14 +55,15 @@
 		<meta property="term" refines="#subject-8">Unknown</meta>
 		<meta property="se:subject">Autobiography</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">E. E. Cummings describes the experiences of his imprisonment and fellow inmates.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;In Great War France, &lt;a href="https://standardebooks.org/ebooks/e-e-cummings"&gt;&lt;abbr&gt;E. E.&lt;/abbr&gt; Cummings&lt;/a&gt; is lifted, along with his friend &lt;abbr&gt;B.&lt;/abbr&gt;, from his job as an ambulance driver with the Red Cross, and deposited a jail for suspected spies. In La Ferté Macé, his life now consists of strolls in the &lt;i lang="fr"&gt;cour&lt;/i&gt;, &lt;i lang="fr"&gt;la soupe&lt;/i&gt;, and his mattress in The Enormous Room, the communal cell for the male prisoners. And it’s these prisoners that &lt;abbr&gt;E. E.&lt;/abbr&gt; Cummings describes in lurid detail.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Enormous Room&lt;/i&gt; is far from a straight autobiographical diary. Cummings’s descriptions, peppered with liberal colloquial French, avoid time and (for the most part) place and instead focus on the personal aspects of his internment, especially in the almost metaphysical description of The Delectable Mountains: the most otherworldy of his compatriots.&lt;/p&gt;
+			&lt;p&gt;During his imprisonment, Cumming’s father petitioned the &lt;abbr&gt;U.S.&lt;/abbr&gt; and French authorities for his liberty. This, and his eventual return home, are described in his introduction to the book.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/8446</dc:source>
 		<dc:source>https://archive.org/details/enormousroom00cummuoft</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Enormous_Room</meta>
