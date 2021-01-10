@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/e-e-cummings/the-enormous-room</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2021-01-10T18:43:54Z</dc:date>
+		<meta property="dcterms:modified">2021-01-10T18:43:54Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -55,17 +55,17 @@
 		<meta property="term" refines="#subject-8">Unknown</meta>
 		<meta property="se:subject">Autobiography</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">E. E. Cummings describes the experiences of his imprisonment and fellow inmates.</dc:description>
+		<dc:description id="description">E. E. Cummings describes the experiences of his and his fellow inmates’ imprisonment during World War I.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;In Great War France, &lt;a href="https://standardebooks.org/ebooks/e-e-cummings"&gt;&lt;abbr&gt;E. E.&lt;/abbr&gt; Cummings&lt;/a&gt; is lifted, along with his friend &lt;abbr&gt;B.&lt;/abbr&gt;, from his job as an ambulance driver with the Red Cross, and deposited a jail for suspected spies. In La Ferté Macé, his life now consists of strolls in the &lt;i lang="fr"&gt;cour&lt;/i&gt;, &lt;i lang="fr"&gt;la soupe&lt;/i&gt;, and his mattress in The Enormous Room, the communal cell for the male prisoners. And it’s these prisoners that &lt;abbr&gt;E. E.&lt;/abbr&gt; Cummings describes in lurid detail.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;The Enormous Room&lt;/i&gt; is far from a straight autobiographical diary. Cummings’s descriptions, peppered with liberal colloquial French, avoid time and (for the most part) place and instead focus on the personal aspects of his internment, especially in the almost metaphysical description of The Delectable Mountains: the most otherworldy of his compatriots.&lt;/p&gt;
-			&lt;p&gt;During his imprisonment, Cumming’s father petitioned the &lt;abbr&gt;U.S.&lt;/abbr&gt; and French authorities for his liberty. This, and his eventual return home, are described in his introduction to the book.&lt;/p&gt;
+			&lt;p&gt;In Great War France, &lt;a href="https://standardebooks.org/ebooks/e-e-cummings"&gt;&lt;abbr&gt;E. E.&lt;/abbr&gt; Cummings&lt;/a&gt; is lifted, along with his friend &lt;abbr&gt;B.&lt;/abbr&gt;, from his job as an ambulance driver with the Red Cross, and deposited in a jail in La Ferté Macé as a suspected spy. There his life consists of strolls in the &lt;i lang="fr"&gt;cour&lt;/i&gt;, &lt;i lang="fr"&gt;la soupe&lt;/i&gt;, and his mattress in The Enormous Room, the male prisoners’ communal cell. It’s these prisoners who Cummings describes in lurid detail.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Enormous Room&lt;/i&gt; is far from a straightforward autobiographical diary. Cummings’ descriptions, peppered liberally with colloquial French, avoid time and, for the most part, place, and instead focus on the personal aspects of his internment, especially in the almost-metaphysical description of The Delectable Mountains: the most otherworldy of his compatriots.&lt;/p&gt;
+			&lt;p&gt;During his imprisonment, Cumming’s father petitioned the &lt;abbr&gt;U.S.&lt;/abbr&gt; and French authorities for his liberty. This, and his eventual return home, are described in the book’s introduction.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/8446</dc:source>
 		<dc:source>https://archive.org/details/enormousroom00cummuoft</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">93990</meta>
+		<meta property="se:reading-ease.flesch">60.55</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Enormous_Room</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/e-e-cummings_the-enormous-room</meta>
 		<dc:creator id="author">E. E. Cummings</dc:creator>
@@ -102,6 +102,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
