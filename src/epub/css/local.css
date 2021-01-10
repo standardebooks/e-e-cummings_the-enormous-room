@@ -55,6 +55,41 @@ p span.i1{
 	padding-left: 2em;
 }
 
+p span.i2{
+	text-indent: -1em;
+	padding-left: 3em;
+}
+
+p span.i3{
+	text-indent: -1em;
+	padding-left: 10em;
+}
+
+p span.i4{
+	text-indent: -1em;
+	padding-left: 12em;
+}
+
+p span.i5{
+	text-indent: -1em;
+	padding-left: 13em;
+}
+
+p span.i6{
+	text-indent: -1em;
+	padding-left: 14em;
+}
+
+p span.i7{
+	text-indent: -1em;
+	padding-left: 16em;
+}
+
+p span.i8{
+	text-indent: -1em;
+	padding-left: 18em;
+}
+
 /* chapter specific styling */
 #introduction ol ol{
 	list-style-type: lower-roman;
@@ -62,36 +97,6 @@ p span.i1{
 
 #chapter-4 blockquote:nth-of-type(2){
 	text-align: center;
-}
-
-#chapter-5 [epub|type~="z3998:song"] span:nth-of-type(2),
-#chapter-5 [epub|type~="z3998:song"] span:nth-of-type(4){
-	margin-left: 12em;
-}
-
-#chapter-5 [epub|type~="z3998:song"] span:nth-of-type(7),
-#chapter-5 [epub|type~="z3998:song"] span:nth-of-type(8){
-	margin-left: 2em;
-}
-
-#chapter-5 [epub|type~="z3998:song"] span:nth-of-type(9){
-	margin-left: 9em;
-}
-
-#chapter-5 [epub|type~="z3998:song"] span:nth-of-type(10){
-	margin-left: 11em;
-}
-
-#chapter-5 [epub|type~="z3998:song"] span:nth-of-type(11){
-	margin-left: 13em;
-}
-
-#chapter-5 [epub|type~="z3998:song"] span:nth-of-type(12){
-	margin-left: 15em;
-}
-
-#chapter-5 [epub|type~="z3998:song"] span:nth-of-type(13){
-	margin-left: 17em;
 }
 
 #chapter-5 blockquote:nth-of-type(2),
