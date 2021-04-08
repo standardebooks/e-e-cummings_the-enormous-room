@@ -17,11 +17,19 @@
 			<code>t-033</code>
 			<reason>Dash is at the end of a line of poetry.</reason>
 		</ignore>
+		<ignore>
+			<code>t-057</code>
+			<reason>Matched text is lowercased in print.</reason>
+		</ignore>
 	</file>
 	<file path="chapter-8.xhtml">
 		<ignore>
 			<code>t-042</code>
 			<reason>Capitals correct in original text.</reason>
+		</ignore>
+		<ignore>
+			<code>t-057</code>
+			<reason>Matched text is lowercased in print.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-9.xhtml">
@@ -29,11 +37,31 @@
 			<code>t-011</code>
 			<reason>These appear to be intentional (and is the same in every copy I can find).</reason>
 		</ignore>
+		<ignore>
+			<code>t-057</code>
+			<reason>Matched text is lowercased in print.</reason>
+		</ignore>
 	</file>
 	<file path="chapter-10.xhtml">
 		<ignore>
 			<code>t-011</code>
 			<reason>These appear to be intentional (and is the same in every copy I can find).</reason>
+		</ignore>
+		<ignore>
+			<code>t-057</code>
+			<reason>Matched text is lowercased in print.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-11.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Matched text is lowercased in print.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-12.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Matched text is lowercased in print.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-13.xhtml">
