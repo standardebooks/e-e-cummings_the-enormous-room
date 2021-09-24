@@ -12,14 +12,30 @@
 			<reason>The abbreviations here are set with hyphens, not dots, so this rule doesn’t apply.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-4.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>Matched text is not a typo.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-5.xhtml">
 		<ignore>
 			<code>t-033</code>
 			<reason>Dash is at the end of a line of poetry.</reason>
 		</ignore>
 		<ignore>
+			<code>t-042</code>
+			<reason>Matched text is not a typo.</reason>
+		</ignore>
+		<ignore>
 			<code>t-057</code>
 			<reason>Matched text is lowercased in print.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-7.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-8.xhtml">
@@ -38,6 +54,10 @@
 			<reason>These appear to be intentional (and is the same in every copy I can find).</reason>
 		</ignore>
 		<ignore>
+			<code>t-042</code>
+			<reason>Matched text is not a typo.</reason>
+		</ignore>
+		<ignore>
 			<code>t-057</code>
 			<reason>Matched text is lowercased in print.</reason>
 		</ignore>
@@ -46,6 +66,10 @@
 		<ignore>
 			<code>t-011</code>
 			<reason>These appear to be intentional (and is the same in every copy I can find).</reason>
+		</ignore>
+		<ignore>
+			<code>t-042</code>
+			<reason>Matched text is not a typo.</reason>
 		</ignore>
 		<ignore>
 			<code>t-057</code>
