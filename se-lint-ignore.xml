@@ -62,7 +62,7 @@
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 		<ignore>
-			<code>y-009</code>
+			<code>y-012</code>
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 		<ignore>
