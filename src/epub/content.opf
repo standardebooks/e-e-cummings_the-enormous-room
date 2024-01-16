@@ -73,9 +73,7 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/E._E._Cummings</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79038464</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="introduction">Edward Cummings</dc:contributor>
-		<meta property="file-as" refines="#introduction">Cummings, Edward</meta>
-		<meta property="role" refines="#introduction" scheme="marc:relators">aui</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">aui</meta>
 		<dc:contributor id="artist">Vincent van Gogh</dc:contributor>
 		<meta property="file-as" refines="#artist">van Gogh, Vincent</meta>
 		<meta property="se:name.person.full-name" refines="#artist">Vincent Willem van Gogh</meta>
