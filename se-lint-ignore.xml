@@ -18,12 +18,12 @@
 			<reason>Dash is at the end of a line of poetry.</reason>
 		</ignore>
 		<ignore>
-			<code>y-003</code>
-			<reason>Matched text is not a typo.</reason>
-		</ignore>
-		<ignore>
 			<code>t-057</code>
 			<reason>Matched text is lowercased in print.</reason>
+		</ignore>
+		<ignore>
+			<code>y-003</code>
+			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-7.xhtml">
@@ -34,6 +34,10 @@
 	</file>
 	<file path="chapter-8.xhtml">
 		<ignore>
+			<code>t-057</code>
+			<reason>Matched text is lowercased in print.</reason>
+		</ignore>
+		<ignore>
 			<code>y-003</code>
 			<reason>The lack of ending punctuation is intentional.</reason>
 		</ignore>
@@ -41,15 +45,15 @@
 			<code>y-009</code>
 			<reason>Capitals correct in original text.</reason>
 		</ignore>
-		<ignore>
-			<code>t-057</code>
-			<reason>Matched text is lowercased in print.</reason>
-		</ignore>
 	</file>
 	<file path="chapter-9.xhtml">
 		<ignore>
 			<code>t-011</code>
 			<reason>These appear to be intentional (and is the same in every copy I can find).</reason>
+		</ignore>
+		<ignore>
+			<code>t-057</code>
+			<reason>Matched text is lowercased in print.</reason>
 		</ignore>
 		<ignore>
 			<code>y-003</code>
@@ -59,10 +63,6 @@
 			<code>y-012</code>
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
-		<ignore>
-			<code>t-057</code>
-			<reason>Matched text is lowercased in print.</reason>
-		</ignore>
 	</file>
 	<file path="chapter-10.xhtml">
 		<ignore>
@@ -70,12 +70,12 @@
 			<reason>These appear to be intentional (and is the same in every copy I can find).</reason>
 		</ignore>
 		<ignore>
-			<code>y-003</code>
-			<reason>Matched text is not a typo.</reason>
-		</ignore>
-		<ignore>
 			<code>t-057</code>
 			<reason>Matched text is lowercased in print.</reason>
+		</ignore>
+		<ignore>
+			<code>y-003</code>
+			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-11.xhtml">
