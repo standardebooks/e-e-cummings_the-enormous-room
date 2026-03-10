@@ -2,78 +2,122 @@
 <se-lint-ignore>
 	<file path="chapter-2.xhtml">
 		<ignore code="t-032">
+			<line>60</line>
+			<line>83</line>
 			<reason>The abbreviations here are set with hyphens, not dots, so this rule doesn’t apply.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-4.xhtml">
 		<ignore code="y-003">
+			<line>205</line>
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-5.xhtml">
 		<ignore code="t-033">
+			<line>35</line>
 			<reason>Dash is at the end of a line of poetry.</reason>
 		</ignore>
 		<ignore code="t-057">
+			<line>118</line>
 			<reason>Matched text is lowercased in print.</reason>
 		</ignore>
 		<ignore code="y-003">
+			<line>117</line>
+			<line>122</line>
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-7.xhtml">
 		<ignore code="y-003">
+			<line>70</line>
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-8.xhtml">
 		<ignore code="t-057">
+			<line>28</line>
+			<line>29</line>
+			<line>30</line>
 			<reason>Matched text is lowercased in print.</reason>
 		</ignore>
 		<ignore code="y-003">
+			<line>46</line>
+			<line>51</line>
 			<reason>The lack of ending punctuation is intentional.</reason>
 		</ignore>
 		<ignore code="y-009">
+			<line>29</line>
 			<reason>Capitals correct in original text.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-9.xhtml">
 		<ignore code="t-011">
+			<line>23</line>
+			<line>34</line>
+			<line>50</line>
+			<line>57</line>
+			<line>78</line>
+			<line>82</line>
 			<reason>These appear to be intentional (and is the same in every copy I can find).</reason>
 		</ignore>
 		<ignore code="t-057">
+			<line>82</line>
 			<reason>Matched text is lowercased in print.</reason>
 		</ignore>
 		<ignore code="y-003">
+			<line>37</line>
+			<line>49</line>
+			<line>59</line>
+			<line>77</line>
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 		<ignore code="y-012">
+			<line>37</line>
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-10.xhtml">
 		<ignore code="t-011">
+			<line>24</line>
+			<line>26</line>
 			<reason>These appear to be intentional (and is the same in every copy I can find).</reason>
 		</ignore>
 		<ignore code="t-057">
+			<line>26</line>
+			<line>40</line>
+			<line>42</line>
+			<line>44</line>
+			<line>49</line>
+			<line>54</line>
+			<line>90</line>
+			<line>98</line>
+			<line>102</line>
 			<reason>Matched text is lowercased in print.</reason>
 		</ignore>
 		<ignore code="y-003">
+			<line>39</line>
+			<line>41</line>
+			<line>48</line>
+			<line>53</line>
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-11.xhtml">
 		<ignore code="t-057">
+			<line>29</line>
 			<reason>Matched text is lowercased in print.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-12.xhtml">
 		<ignore code="t-057">
+			<line>75</line>
 			<reason>Matched text is lowercased in print.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-13.xhtml">
 		<ignore code="t-011">
+			<line>107</line>
 			<reason>This appears to be intentional (and is the same in every copy I can find).</reason>
 		</ignore>
 	</file>
